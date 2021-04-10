@@ -3,16 +3,6 @@
 * {
   font-family: "Pridi"; }
 
-.container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -65px;
-  margin-top: -20px;
-  width: 130px;
-  height: 40px;
-  text-align: center; }
-
 .btn {
   height: 40px;
   width: 130px;
@@ -53,7 +43,7 @@
       transform: scale(1.05); }
   .btn.-sign-up {
     background: #fff;
-    color: #394bf3;
+    color: #1376e1;
     box-shadow: 0 6px 30px -10px #303b47;
     cursor: pointer;
     transition: all 0.25s ease; }
@@ -100,16 +90,14 @@
   border: none;
   text-align: center;
   cursor: pointer;
-  font-weight: 900;
   background: none; }
+  .bt:hover {
+    color: #1376e1; }
   .bt.-icon {
     height: 20px;
     display: inline;
-    fill: #212529;
     font-size: 32px;
     line-height: 48px; }
-  .bt.active {
-    background: #1376e1; }
 
 li {
   display: inline-block;
@@ -135,69 +123,18 @@ li {
     left: 30px;
     transform: translateY(-50%); }
   .download:hover {
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
-    font-weight: bold; }
-  .download .df,
+    box-shadow: 0 6px 30px -10px #303b47; }
+  .download .df, .download .dfa,
   .download .dfn {
     position: absolute;
     left: 70px; }
   .download .df {
-    top: 8px;
-    font-size: 1.08em; }
+    top: 8px; }
+  .download .dfa {
+    top: 12px; }
   .download .dfn {
     top: 30px;
     font-size: 0.68em; }
-
-.message-box {
-  width: 424px;
-  height: 76px;
-  border-radius: 6px;
-  padding: auto 0; }
-  .message-box i {
-    padding: 20px; }
-    .message-box i.exit-button {
-      float: initial;
-      margin-top: 0;
-      margin-right: 0px;
-      opacity: 0.4; }
-      .message-box i.exit-button:hover {
-        opacity: 0.8; }
-  .message-box.-box-error {
-    background-color: #ecc8c5;
-    border: #d37f78 2px solid;
-    color: #b83c37;
-    text-align: center;
-    padding-top: 0px; }
-
-.search-box {
-  width: 536px;
-  position: relative;
-  display: flex; }
-
-.searchTerm {
-  width: 100%;
-  border: 3px solid #303b47;
-  border-right: none;
-  padding: 5px;
-  height: 20px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: #eaf4ff; }
-
-.searchTerm:focus {
-  color: #303b47; }
-
-.searchButton {
-  width: 40px;
-  height: 36px;
-  border: 1px solid #303b47;
-  background: #303b47;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 20px; }
 
 .wrap {
   padding: 20px; }

@@ -20,6 +20,8 @@ h1 {
 
 label {
   padding: 10px 0px 15px 0px;
+  
+
   &.pname {
    
     font-size: $font-default;
@@ -61,6 +63,22 @@ label {
     font-size: $font-heading-h1;
   }
 }
+.text{
+  &.small{
+    font-size: $font-small;
+    
+  }
+  &.default{
+    font-size: $font-default;
+  }
+   
+  &.large{
+    font-size: $font-heading;
+  }
+  &.special{
+    font-size: $font-heading-h1;
+  }
+}
 
 li {
   display: flex;
@@ -75,18 +93,4 @@ li {
   font-size: $font-small;
   cursor: pointer;
  
-  &.-date:hover {
-    color: $filter-text-active;
-  }
-  &.-cate:hover {
-    color: $filter-text-active;
-  }
-  
-  &.-model:hover {
-    color: $filter-text-active;
-  }
-
-  &.-publish:hover {
-    color: $filter-text-active;
-  }
 }

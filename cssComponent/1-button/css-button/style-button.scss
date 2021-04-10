@@ -16,16 +16,7 @@ $font-default: #000;
 * {
   font-family: "Pridi";
 }
-.container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -65px;
-  margin-top: -20px;
-  width: 130px;
-  height: 40px;
-  text-align: center;
-}
+
 
 .btn {
   height: 40px;
@@ -83,7 +74,7 @@ $font-default: #000;
 
   &.-sign-up {
     background: $bg-btn-sign;
-    color: #394bf3;
+    color: $bg-btn-publish;
 
     box-shadow: 0 6px 30px -10px $box-shadow;
     .font {
@@ -150,19 +141,18 @@ $font-default: #000;
   border: none;
   text-align: center;
   cursor: pointer;
-  font-weight: 900;
   background: none;
 
+  &:hover{
+  color: $bg-btn-publish;
+}
   &.-icon {
     height: 20px;
     display: inline;
-    fill: #212529;
     font-size: 32px;
     line-height: 48px;
   }
-  &.active{
-    background: #1376e1;
-  }
+
 }
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
 
@@ -199,12 +189,10 @@ li {
   }
 
   &:hover {
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
-    font-weight: bold;
+    box-shadow: 0 6px 30px -10px $box-shadow;
   }
 
-  & .df,
+  & .df,.dfa,
   .dfn {
     position: absolute;
     left: 70px;
@@ -212,74 +200,20 @@ li {
 
   & .df {
     top: 8px;
-    font-size: 1.08em;
   }
 
+  & .dfa {
+    top: 12px;
+  }
   & .dfn {
     top: 30px;
     font-size: 0.68em;
   }
 }
 
-.message-box {
-  width: 424px;
-  height: 76px;
-  border-radius: 6px;
-  padding: auto 0;
 
-  i {
-    padding: 20px;
-    &.exit-button {
-      float: initial;
-      margin-top: 0;
-      margin-right: 0px;
-      opacity: 0.4;
-      &:hover {
-        opacity: 0.8;
-      }
-    }
-  }
-  &.-box-error {
-    background-color: $error;
-    border: darken($error, 20%) 2px solid;
-    color: $error-text;
-    text-align: center;
-    padding-top: 0px;
-  }
-}
 
-.search-box {
-  width: 536px;
-  position: relative;
-  display: flex;
-}
 
-.searchTerm {
-  width: 100%;
-  border: 3px solid $box-search;
-  border-right: none;
-  padding: 5px;
-  height: 20px;
-  border-radius: 5px 0 0 5px;
-  outline: none;
-  color: $bg-default;
-}
-
-.searchTerm:focus {
-  color: $box-search;
-}
-
-.searchButton {
-  width: 40px;
-  height: 36px;
-  border: 1px solid $box-search;
-  background: $box-search;
-  text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  font-size: 20px;
-}
 .wrap {
   padding: 20px;
   //ทำระยะห่างเฉยๆ

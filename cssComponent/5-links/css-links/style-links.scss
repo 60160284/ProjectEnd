@@ -1,0 +1,28 @@
+@import "https://fonts.googleapis.com/css?family=Pridi";
+$font-default-color: #000;
+
+$font-heading: 20px;
+$font-heading-h1: 24px;
+$font-default: 16px;
+$font-small: 14px;
+*{
+    font-family: "Pridi";
+    list-style-type: none;
+}
+
+.links-up{
+    color: $font-default-color;
+    font-size: $font-default;
+    &:hover{
+        text-shadow:  1px 1px $font-default-color;
+    }
+}
+
+
+.links-back{
+    color: $font-default-color;
+    font-size: $font-default;
+    &:hover{
+        text-shadow:  1px 1px $font-default-color;
+    }
+}

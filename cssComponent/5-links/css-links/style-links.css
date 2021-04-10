@@ -1,0 +1,18 @@
+@import "https://fonts.googleapis.com/css?family=Pridi";
+* {
+  font-family: "Pridi";
+  list-style-type: none; }
+
+.links-up {
+  color: #000;
+  font-size: 16px; }
+  .links-up:hover {
+    text-shadow: 1px 1px #000; }
+
+.links-back {
+  color: #000;
+  font-size: 16px; }
+  .links-back:hover {
+    text-shadow: 1px 1px #000; }
+
+/*# sourceMappingURL=style-links.css.map */

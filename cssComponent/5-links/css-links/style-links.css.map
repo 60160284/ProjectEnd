@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,uDAA+C;AAOvD,CAAC;EACG,WAAW,EAAE,OAAO;EACpB,eAAe,EAAE,IAAI;;AAGzB,SAAS;EACL,KAAK,EAZY,IAAI;EAarB,SAAS,EATE,IAAI;EAUf,eAAO;IACH,WAAW,EAAG,YAA2B;;AAKjD,WAAW;EACP,KAAK,EArBY,IAAI;EAsBrB,SAAS,EAlBE,IAAI;EAmBf,iBAAO;IACH,WAAW,EAAG,YAA2B",
+"sources": ["style-links.scss"],
+"names": [],
+"file": "style-links.css"
+}

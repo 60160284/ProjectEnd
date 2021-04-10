@@ -1,0 +1,59 @@
+@import "https://fonts.googleapis.com/css?family=Pridi";
+* {
+  font-family: "Pridi"; }
+
+body {
+  background-color: #eaf4ff; }
+
+h1 {
+  font-size: 24px; }
+
+label {
+  padding: 10px 0px 15px 0px; }
+  label.pname {
+    font-size: 16px; }
+  label.filter {
+    font-size: 14px; }
+  label.filter:hover {
+    cursor: pointer;
+    color: #1376e1; }
+  label.payment-info {
+    font-size: 16px; }
+  label.paid-info {
+    font-size: 16px; }
+  label.order-desc {
+    width: 38%;
+    line-height: 24px; }
+  label.upload-info {
+    font-size: 20px; }
+  label.email-reset-info {
+    font-size: 16px; }
+  label.email-submit-info {
+    font-size: 16px; }
+  label.email-sendback {
+    font-size: 24px; }
+  label.asset-info {
+    font-size: 24px; }
+  label.asset-size-info {
+    font-size: 24px; }
+
+li {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between; }
+
+.details {
+  display: inline-block;
+  padding: 3px;
+  font-size: 14px;
+  cursor: pointer; }
+  .details.-date:hover {
+    color: #1376e1; }
+  .details.-cate:hover {
+    color: #1376e1; }
+  .details.-model:hover {
+    color: #1376e1; }
+  .details.-publish:hover {
+    color: #1376e1; }
+
+/*# sourceMappingURL=style.text.css.map */

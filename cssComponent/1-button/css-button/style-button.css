@@ -1,0 +1,205 @@
+@import "https://fonts.googleapis.com/css?family=Pridi";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+* {
+  font-family: "Pridi"; }
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -65px;
+  margin-top: -20px;
+  width: 130px;
+  height: 40px;
+  text-align: center; }
+
+.btn {
+  height: 40px;
+  width: 130px;
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  text-align: center;
+  justify-items: flex-start;
+  font-weight: 900; }
+  .btn.-submit {
+    background: #303b47;
+    cursor: pointer;
+    transition: all 0.25s ease; }
+    .btn.-submit .font {
+      size: 18px; }
+    .btn.-submit:hover {
+      opacity: 0.9;
+      transform: scale(1.05); }
+  .btn.-fil {
+    background: #303b47; }
+  .btn.-cancel {
+    background: #d90303;
+    cursor: pointer;
+    transition: all 0.25s ease; }
+    .btn.-cancel .font {
+      size: 18px; }
+    .btn.-cancel:hover {
+      opacity: 0.9;
+      transform: scale(1.05); }
+  .btn.-publish {
+    background: #1376e1;
+    cursor: pointer;
+    transition: all 0.25s ease; }
+    .btn.-publish .font {
+      size: 18px; }
+    .btn.-publish:hover {
+      opacity: 0.9;
+      transform: scale(1.05); }
+  .btn.-sign-up {
+    background: #fff;
+    color: #394bf3;
+    box-shadow: 0 6px 30px -10px #303b47;
+    cursor: pointer;
+    transition: all 0.25s ease; }
+    .btn.-sign-up .font {
+      size: 20px; }
+    .btn.-sign-up:hover {
+      background: #303b47;
+      color: #eaf4ff;
+      box-shadow: 0 0 0 1px rgba(80, 80, 80, 0.5); }
+  .btn.-next {
+    background: #303b47;
+    width: 752px;
+    height: 66px;
+    cursor: pointer;
+    transition: all 0.25s ease; }
+    .btn.-next .font {
+      size: 20px; }
+    .btn.-next:hover {
+      opacity: 0.9; }
+  .btn.-back {
+    background: #303b47;
+    width: 558px;
+    height: 66px;
+    cursor: pointer;
+    transition: all 0.25s ease; }
+    .btn.-back .font {
+      size: 20px; }
+    .btn.-back:hover {
+      opacity: 0.9; }
+  .btn.-paid-submit {
+    background: #1376e1;
+    width: 558px;
+    height: 66px;
+    cursor: pointer;
+    transition: all 0.25s ease; }
+    .btn.-paid-submit .font {
+      size: 20px; }
+    .btn.-paid-submit:hover {
+      opacity: 0.9; }
+
+.bt {
+  color: #000;
+  letter-spacing: 1px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 900;
+  background: none; }
+  .bt.-icon {
+    height: 20px;
+    display: inline;
+    fill: #212529;
+    font-size: 32px;
+    line-height: 48px; }
+  .bt.active {
+    background: #1376e1; }
+
+li {
+  display: inline-block;
+  margin: 10px; }
+
+.download {
+  width: 200px;
+  height: 50px;
+  float: left;
+  border-radius: 5px;
+  position: relative;
+  color: #303b47;
+  cursor: pointer;
+  border: 1px solid #fff; }
+  .download.-paid {
+    background: #edd558; }
+  .download.-free {
+    background: #fff; }
+  .download .fa {
+    color: #303b47;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%); }
+  .download:hover {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    font-weight: bold; }
+  .download .df,
+  .download .dfn {
+    position: absolute;
+    left: 70px; }
+  .download .df {
+    top: 8px;
+    font-size: 1.08em; }
+  .download .dfn {
+    top: 30px;
+    font-size: 0.68em; }
+
+.message-box {
+  width: 424px;
+  height: 76px;
+  border-radius: 6px;
+  padding: auto 0; }
+  .message-box i {
+    padding: 20px; }
+    .message-box i.exit-button {
+      float: initial;
+      margin-top: 0;
+      margin-right: 0px;
+      opacity: 0.4; }
+      .message-box i.exit-button:hover {
+        opacity: 0.8; }
+  .message-box.-box-error {
+    background-color: #ecc8c5;
+    border: #d37f78 2px solid;
+    color: #b83c37;
+    text-align: center;
+    padding-top: 0px; }
+
+.search-box {
+  width: 536px;
+  position: relative;
+  display: flex; }
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #303b47;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #eaf4ff; }
+
+.searchTerm:focus {
+  color: #303b47; }
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #303b47;
+  background: #303b47;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px; }
+
+.wrap {
+  padding: 20px; }
+
+/*# sourceMappingURL=style-button.css.map */

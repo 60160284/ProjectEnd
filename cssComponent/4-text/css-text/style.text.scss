@@ -1,0 +1,92 @@
+@import "https://fonts.googleapis.com/css?family=Pridi";
+
+$bg-default: #eaf4ff;
+$font-default-color: #000;
+$font-heading: 20px;
+$font-heading-h1: 24px;
+$font-default: 16px;
+$font-small: 14px;
+$filter-text-active: #1376e1;
+
+* {
+  font-family: "Pridi";
+}
+body {
+  background-color: $bg-default;
+}
+h1 {
+  font-size: $font-heading-h1;
+}
+
+label {
+  padding: 10px 0px 15px 0px;
+  &.pname {
+   
+    font-size: $font-default;
+  }
+  &.filter {
+    font-size: $font-small;
+  }
+  &.filter:hover {
+    cursor: pointer;
+    color: $filter-text-active;
+  }
+  &.payment-info {
+    font-size: $font-default;
+  }
+  &.paid-info {
+    font-size: $font-default;
+  }
+  &.order-desc {
+    width: 38%;
+    line-height: 24px;
+  }
+  &.upload-info{
+    font-size: $font-heading;
+  }
+  &.email-reset-info{
+    font-size: $font-default;
+  }
+  &.email-submit-info{
+    font-size: $font-default;
+  }
+
+  &.email-sendback{
+    font-size: $font-heading-h1;
+  }
+  &.asset-info{
+    font-size: $font-heading-h1;
+  }
+  &.asset-size-info{
+    font-size: $font-heading-h1;
+  }
+}
+
+li {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+
+}
+
+.details {
+  display: inline-block;
+  padding: 3px;
+  font-size: $font-small;
+  cursor: pointer;
+ 
+  &.-date:hover {
+    color: $filter-text-active;
+  }
+  &.-cate:hover {
+    color: $filter-text-active;
+  }
+  
+  &.-model:hover {
+    color: $filter-text-active;
+  }
+
+  &.-publish:hover {
+    color: $filter-text-active;
+  }
+}

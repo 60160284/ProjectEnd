@@ -1,0 +1,286 @@
+@import "https://fonts.googleapis.com/css?family=Pridi";
+
+$bg-default: #eaf4ff;
+$bg-btn-font-color: #fff;
+$bg-button: #303b47;
+$bg-btn-edit: #d90303;
+$bg-btn-publish: #1376e1;
+$bg-btn-paid: #edd558;
+$bg-btn-sign: #fff;
+
+$box-search: #303b47;
+$box-shadow: #303b47;
+$error: #ecc8c5;
+$error-text: #b83c37;
+$font-default: #000;
+* {
+  font-family: "Pridi";
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -65px;
+  margin-top: -20px;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+}
+
+.btn {
+  height: 40px;
+  width: 130px;
+  color: $bg-btn-font-color;
+  letter-spacing: 1px;
+  border: none;
+  text-align: center;
+  justify-items: flex-start;
+  font-weight: 900;
+
+  &.-submit {
+    background: $bg-button;
+
+    .font {
+      size: 18px;
+    }
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+    }
+  }
+  &.-fil {
+    background: $bg-button;
+  }
+  &.-cancel {
+    background: $bg-btn-edit;
+
+    .font {
+      size: 18px;
+    }
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+    }
+  }
+
+  &.-publish {
+    background: $bg-btn-publish;
+
+    .font {
+      size: 18px;
+    }
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+    }
+  }
+
+  &.-sign-up {
+    background: $bg-btn-sign;
+    color: #394bf3;
+
+    box-shadow: 0 6px 30px -10px $box-shadow;
+    .font {
+      size: 20px;
+    }
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      background: $bg-button;
+      color: $bg-default;
+      box-shadow: 0 0 0 1px rgba(80, 80, 80, 0.5);
+    }
+  }
+
+  &.-next {
+    background: $bg-button;
+    width: 752px;
+    height: 66px;
+
+
+    .font {
+      size: 20px;
+    }
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+  &.-back {
+    background: $bg-button;
+    width: 558px;
+    height: 66px;
+  
+
+    .font {
+      size: 20px;
+    }
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  &.-paid-submit {
+    background: $bg-btn-publish;
+    width: 558px;
+    height: 66px;
+   
+    .font {
+      size: 20px;
+    }
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+.bt {
+  color: $font-default;
+  letter-spacing: 1px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 900;
+  background: none;
+
+  &.-icon {
+    height: 20px;
+    display: inline;
+    fill: #212529;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  &.active{
+    background: #1376e1;
+  }
+}
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.download {
+  width: 200px;
+  height: 50px;
+
+  float: left;
+  border-radius: 5px;
+  position: relative;
+  color: $bg-button;
+  cursor: pointer;
+  border: 1px solid $bg-btn-font-color;
+
+  &.-paid {
+    background: $bg-btn-paid;
+  }
+
+  &.-free {
+    background: $bg-btn-sign;
+  }
+
+  & .fa {
+    color: $bg-button;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+  }
+
+  &:hover {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    font-weight: bold;
+  }
+
+  & .df,
+  .dfn {
+    position: absolute;
+    left: 70px;
+  }
+
+  & .df {
+    top: 8px;
+    font-size: 1.08em;
+  }
+
+  & .dfn {
+    top: 30px;
+    font-size: 0.68em;
+  }
+}
+
+.message-box {
+  width: 424px;
+  height: 76px;
+  border-radius: 6px;
+  padding: auto 0;
+
+  i {
+    padding: 20px;
+    &.exit-button {
+      float: initial;
+      margin-top: 0;
+      margin-right: 0px;
+      opacity: 0.4;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  &.-box-error {
+    background-color: $error;
+    border: darken($error, 20%) 2px solid;
+    color: $error-text;
+    text-align: center;
+    padding-top: 0px;
+  }
+}
+
+.search-box {
+  width: 536px;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid $box-search;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: $bg-default;
+}
+
+.searchTerm:focus {
+  color: $box-search;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid $box-search;
+  background: $box-search;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.wrap {
+  padding: 20px;
+  //ทำระยะห่างเฉยๆ
+}

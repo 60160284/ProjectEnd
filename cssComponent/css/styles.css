@@ -11,4 +11,10 @@ li {
 .notification {
   width: 350px; }
 
+.media-content.owner {
+  color: #ee2424; }
+
+.img-user {
+  border-radius: 50%; }
+
 /*# sourceMappingURL=styles.css.map */

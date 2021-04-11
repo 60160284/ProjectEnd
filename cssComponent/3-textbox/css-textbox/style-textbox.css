@@ -67,7 +67,6 @@ body {
     gap: 5px;
     height: 10px;
     width: 945px;
-    margin-bottom: 15px;
     box-shadow: 0 3px 15px -10px #303b47; }
   .i-login.password {
     padding: 10px;
@@ -78,6 +77,9 @@ body {
     width: 400px;
     margin-bottom: 15px;
     box-shadow: 0 3px 15px -10px #303b47; }
+  .i-login.error-message {
+    color: #b83c37;
+    font-size: 10px; }
 
 .i-upload {
   outline: none;

@@ -90,7 +90,6 @@ body {
     gap: 5px;
     height: 10px;
     width: 945px;
-    margin-bottom: 15px;
     box-shadow: 0 3px 15px -10px $box-shadow;
   }
 
@@ -103,6 +102,12 @@ body {
     width: 400px;
     margin-bottom: 15px;
     box-shadow: 0 3px 15px -10px $box-shadow;
+  }
+  &.error-message{
+    
+    color: $error-text;
+    font-size: 10px;
+
   }
 }
 

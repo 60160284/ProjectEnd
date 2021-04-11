@@ -11,10 +11,14 @@ li {
 .notification {
   width: 350px; }
 
-.media-content.owner {
-  color: #ee2424; }
+.media-content {
+  margin-top: 10px; }
 
 .img-user {
-  border-radius: 50%; }
+  border-radius: 50%;
+  border: 3px solid; }
+
+.card-content {
+  width: 300px; }
 
 /*# sourceMappingURL=styles.css.map */

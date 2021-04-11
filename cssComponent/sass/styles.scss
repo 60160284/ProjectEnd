@@ -16,12 +16,15 @@ li{
 
 }
 .media-content{
-  &.owner{
+  margin-top: 10px;
 
-  
-  color: rgb(238, 36, 36);
-  }
 }
 .img-user{
   border-radius: 50%;
+  border: 3px solid;
+}
+
+.card-content{
+  width: 300px;
+  
 }

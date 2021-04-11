@@ -11,4 +11,14 @@ li {
 .notification {
   width: 350px; }
 
+.img-own {
+  border-radius: 50px;
+  border: 3px solid; }
+
+.media-content {
+  margin-top: 10px; }
+
+.card-content.-owner {
+  display: flex; }
+
 /*# sourceMappingURL=styles.css.map */

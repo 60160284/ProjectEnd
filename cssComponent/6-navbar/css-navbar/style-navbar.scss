@@ -1,0 +1,121 @@
+@import "https://fonts.googleapis.com/css?family=Pridi";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+$bg-nav-default: #303b47;
+$bg-default: #eaf4ff;
+$bg-btn-font-color: #fff;
+$bg-button: #303b47;
+$bg-btn-edit: #d90303;
+$bg-btn-publish: #1376e1;
+$bg-btn-paid: #edd558;
+$bg-btn-sign: #fff;
+
+$box-search: #303b47;
+$box-shadow: #303b47;
+$error: #ecc8c5;
+$error-text: #b83c37;
+$font-default: #000;
+
+* {
+  font-family: "Pridi";
+}
+body {
+  li {
+    list-style-type: none;
+    display: block;
+    font-size: 14px;
+  }
+}
+  .sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #7386d5;
+    color: #fff;
+    transition: all 0.6s cubic-bezier(0.945, 0.02, 0.27, 0.665);
+    transform-origin: bottom left;
+}
+.cate-row {
+  padding: 3px;
+  height: 40px;
+}
+.navbar {
+  display: flex;
+  background: $bg-nav-default;
+  height: 80px;
+}
+
+.search-box {
+  width: 536px;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 300px;
+  border: 3px solid #303b47;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 3px 0 0 3px;
+  outline: none;
+  color: #eaf4ff;
+}
+.searchTerm.searchTerm:focus {
+  color: #303b47;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #303b47;
+  background: #303b47;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.comp {
+  display: inline;
+  list-style-type: none;
+  padding: 5px;
+  justify-content: space-between;
+  &.icon {
+    color: white;
+  }
+}
+.side {
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+.project-name {
+  color: white;
+}
+
+.btn {
+  height: 40px;
+  width: 130px;
+  color: $bg-btn-font-color;
+  letter-spacing: 1px;
+  border: none;
+  text-align: center;
+  justify-items: flex-start;
+  font-weight: 900;
+
+  &.-sign-up {
+    background: $bg-btn-sign;
+    color: $bg-btn-publish;
+
+    box-shadow: 0 6px 30px -10px $box-shadow;
+    .font {
+      size: 20px;
+    }
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      color: $font-default;
+      box-shadow: 0 0 0 1px rgba(80, 80, 80, 0.5);
+    }
+  }
+}

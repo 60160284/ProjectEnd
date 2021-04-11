@@ -15,10 +15,10 @@ li {
   border-radius: 50px;
   border: 3px solid; }
 
-.media-content {
-  margin-top: 10px; }
-
 .card-content.-owner {
   display: flex; }
+
+.media-content {
+  margin-top: 10px; }
 
 /*# sourceMappingURL=styles.css.map */

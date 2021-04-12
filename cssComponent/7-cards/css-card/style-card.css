@@ -4,9 +4,18 @@
   font-family: 'Pridi'; }
 
 body {
-  background: #EAF4FF; }
+  background-color: #EAF4FF; }
 
 .container {
   margin-top: 20px; }
+
+.card-content.pay {
+  display: flex; }
+
+.title {
+  font-size: 16px; }
+
+.title-icon {
+  padding-left: 5px; }
 
 /*# sourceMappingURL=style-card.css.map */

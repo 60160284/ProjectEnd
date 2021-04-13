@@ -1,13 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+   <style>
+       @import url('https://fonts.googleapis.com/css?family=Quicksand&display=Pridi');
+   </style>
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="notification is-primary">
+        <h1>เข้าสู่ระบบ</h1>
+        <div class="form">
+
+            <div class="input-field">
+                <label for="email">อีเมล</label>
+                <input type="email" placeholder="กรุณากรอกอีเมล" id="email" name="email">
+            </div>
+
+            <div class="input-field">
+                <label for="password">รหัสผ่าน</label>
+                <input type="password" placeholder="********" id="password" name="password">
+
+                <a class="input-field forgot-pass" href="#">ลืมรหัสผ่านใช่หรือไม่</a>
+
+            </div>
+
+            <div class="row-check">
+                <label for="remember">
+                    <input type="checkbox" name="" id="remember">ให้ฉันอยู่ในระบบ
+                </label>
+                <a href="#">สร้างบัญชีใหม่</a>
+            </div>
+            <div class="action">
+                <button id="btn" class="btn">ยืนยัน</button>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
+
 </html>

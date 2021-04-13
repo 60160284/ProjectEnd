@@ -1,0 +1,220 @@
+@import "https://fonts.googleapis.com/css?family=Pridi";
+
+$bg-default: #eaf4ff;
+$bg-btn-font-color: #fff;
+$bg-button: #303b47;
+$bg-btn-edit: #d90303;
+$bg-btn-publish: #1376e1;
+$bg-btn-paid: #edd558;
+$bg-btn-sign: #fff;
+
+$box-search: #303b47;
+$box-shadow: #303b47;
+$error: #ecc8c5;
+$error-text: #b83c37;
+$font-default: #000;
+* {
+  font-family: "Pridi";
+}
+
+
+.btn {
+  height: 40px;
+  width: 130px;
+  color: $bg-btn-font-color;
+  letter-spacing: 1px;
+  border: none;
+  text-align: center;
+  justify-items: flex-start;
+  font-weight: 900;
+
+  &.-submit {
+    background: $bg-button;
+
+    .font {
+      size: 18px;
+    }
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+    }
+  }
+  &.-fil {
+    background: $bg-button;
+  }
+  &.-cancel {
+    background: $bg-btn-edit;
+
+    .font {
+      size: 18px;
+    }
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+    }
+  }
+
+  &.-publish {
+    background: $bg-btn-publish;
+
+    .font {
+      size: 18px;
+    }
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      opacity: 0.9;
+      transform: scale(1.05);
+    }
+  }
+
+  &.-sign-up {
+    background: $bg-btn-sign;
+    color: $bg-btn-publish;
+
+    box-shadow: 0 6px 30px -10px $box-shadow;
+    .font {
+      size: 20px;
+    }
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      background: $bg-button;
+      color: $bg-default;
+      box-shadow: 0 0 0 1px rgba(80, 80, 80, 0.5);
+    }
+  }
+
+  &.-next {
+    background: $bg-button;
+    width: 752px;
+    height: 66px;
+
+
+    .font {
+      size: 20px;
+    }
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+  &.-back {
+    background: $bg-button;
+    width: 558px;
+    height: 66px;
+  
+
+    .font {
+      size: 20px;
+    }
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  &.-paid-submit {
+    background: $bg-btn-publish;
+    width: 558px;
+    height: 66px;
+   
+    .font {
+      size: 20px;
+    }
+    cursor: pointer;
+    transition: all 0.25s ease;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+.bt {
+  color: $font-default;
+  letter-spacing: 1px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  background: none;
+
+  &:hover{
+  color: $bg-btn-publish;
+}
+  &.-icon {
+    height: 20px;
+    display: inline;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+}
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.download {
+  width: 200px;
+  height: 50px;
+
+  float: left;
+  border-radius: 5px;
+  position: relative;
+  color: $bg-button;
+  cursor: pointer;
+  border: 1px solid $bg-btn-font-color;
+
+  &.-paid {
+    background: $bg-btn-paid;
+  }
+
+  &.-free {
+    background: $bg-btn-sign;
+  }
+
+  & .fa {
+    color: $bg-button;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+  }
+
+  &:hover {
+    box-shadow: 0 6px 30px -10px $box-shadow;
+  }
+
+  & .df,.dfa,
+  .dfn {
+    position: absolute;
+    left: 70px;
+  }
+
+  & .df {
+    top: 8px;
+  }
+
+  & .dfa {
+    top: 12px;
+  }
+  & .dfn {
+    top: 30px;
+    font-size: 0.68em;
+  }
+}
+
+
+
+
+.wrap {
+  padding: 20px;
+  //ทำระยะห่างเฉยๆ
+}

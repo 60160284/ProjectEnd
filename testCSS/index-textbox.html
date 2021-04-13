@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Document</title>
+
+    <div class="wrap">
+        <div class="i-login">
+            <label for="fname">ชื่อ</label>
+            <input type="text" placeholder="" class="i-login fname" name="fname">
+        </div>
+
+        <div class="i-login">
+            <label for="lname">นามสกุล</label>
+            <input type="text" placeholder="" class="i-login lname" name="lname">
+        </div>
+
+
+        <div class="i-login">
+            <label for="email">อีเมล</label>
+            <input type="email" placeholder="" class="i-login email" name="email">
+        </div>
+
+        <div class="i-login">
+            <label for="email">อีเมล</label>
+            <input type="email" placeholder="" class="i-login email" name="email">
+            <span class="i-login error-message">กรุณากรอกอีเมลให้ถูกต้อง</span>
+        </div>
+
+        <div class="i-login">
+            <label for="password">รหัสผ่าน</label>
+            <input type="password" placeholder="" class="i-login password" name="password">
+        </div>
+
+    </div>
+
+
+    <div class="i-upload">
+        <label for="filename">ชื่อไฟล์งาน</label>
+        <input type="text" placeholder="" class="i-upload filename" name="i-upload filename">
+    </div>
+
+    <div class="i-upload">
+        <label for="desc">คำอธิบาย</label>
+        <textarea class="i-upload desc" id="desc" cols="30" rows="3"></textarea>
+    </div>
+
+    <div class="i-upload">
+        <label for="price">กำหนดราคา</label>
+        <input type="number" placeholder="บาท" class="i-upload price" name="i-upload price">
+    </div>
+
+
+
+    <div class="wrap">
+        <div class="i-upload">
+            <label for="type">รูปแบบ</label>
+            <div class="selected-type">
+                <select class="selected -type-diment"">
+                    <option selected value=" default">เลือก</option>
+                    <option value="two_dimention">สองมิติ</option>
+                    <option value="three_dimention">สามมิติ</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="i-upload">
+            <label for="cate">หมวดหมู่</label>
+            <div class="selected-cate">
+                <select class="selected -cate"">
+                    <option selected value=" default">เลือก</option>
+                    <option value="sport">สองมิติ</option>
+                    <option value="architecture">สถาปัตยกรรม</option>
+                    <option value="animal">สัตว์</option>
+                    <option value="travel">การท่องเที่ยว</option>
+                    <option value="people">ผู้คนและตัวละคร</option>
+                    <option value="science">วิทยาศาสตร์</option>
+                    <option value="nature">ธรรมชาติ</option>
+                    <option value="arts">ศิลปะ</option>
+                    <option value="tech">เครื่องมือและเทคโนโลยี</option>
+                    <option value="security">ความปลอดภัย</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap">
+        <div class="i-upload">
+            <label for="cate">การเปิดเผย</label>
+            <div class="selected-publish">
+                <select class="selected -publish"">
+                    <option selected value=" cc0">อนุญาตให้ใช้ โดยไม่มีเงื่อนไข (CC0)</option>
+                    <option value="">อ้างอิงแหล่งที่มา (CC-BY)</option>
+                    <option value="">อ้างอิงแหล่งที่มา ให้อนุญาตต่อไปแบบเดียวกัน (CC-BY-SA)</option>
+                    <option value="">อ้างอิงแหล่งที่มา ห้ามดัดแปลง (CC-BY-ND)</option>
+                    <option value="">อ้างอิงแหล่งที่มา ห้ามนำไปใช้เพื่อการค้า (CC-BY-NC)</option>
+                    <option value="">อ้างอิงแหล่งที่มา ห้ามนำไปใช้เพื่อการค้า และให้อนุญาตต่อไปแบบเดียวกัน (CC-BY-NC-SA)
+                    </option>
+                    <option value="">อ้างอิงแหล่งที่มา ห้ามนำไปใช้เพื่อการค้า และห้ามดัดแปลง (CC-BY-NC-ND)</option>
+                    <option value="">ต้องการขาย (Sell)</option>
+
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="wrap">
+        <div class="search-box">
+            <input type="text" class="searchTerm" placeholder="ค้นหา">
+            <button type="submit" class="searchButton">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="wrap" style="padding-top: 40px;">
+        <div class="group">
+            <input type="text" class="textfield" required>
+            <span class="textfield highlight"></span>
+            <span class="textfield bar"></span>
+            <label class="textfield lab">ชื่อ</label>
+        </div>
+    </div>
+
+
+    <div class="i-payment incust">
+        <fieldset class="i-payment field">
+
+            <label class="incust">
+
+                <input type="text" placeholder="ชื่อ" class="incust -cname" name="incust -cname" required>
+            </label>
+
+            <label class="incust">
+
+                <input type="email" placeholder="อีเมล" class="incust -email" name="incust -email" required>
+            </label>
+
+            <label class="incust">
+
+                <input type="text" placeholder="ที่อยู่" class="incust -address" name="incust -address" required>
+            </label>
+
+            <label class="incust">
+
+                <input type="text" placeholder="เมือง" class="incust -city" name="incust -city" required>
+            </label>
+
+            <label class="incust">
+
+                <input type="text" placeholder="ประเทศ" class="incust -country" name="incust -country">
+            </label>
+
+            <label class="incust">
+
+                <input type="text" placeholder="ใบกำกับภาษี" class="incust -tax" name="incust -tax">
+            </label>
+
+        </fieldset>
+    </div>
+
+    <div class="i-payment incust">
+    <fieldset class="i-payment field">
+        <label class="incusts" >
+            <span>บัตรเครดิต</span>
+            <input placeholder="หมายเลขบัตรเครดิต" class="incusts -credit" name="incusts -credit">
+        </label>
+
+    </fieldset>
+    </div>
+
+</head>
+</body>
+
+</html>

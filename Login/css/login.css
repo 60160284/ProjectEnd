@@ -1,3 +1,8 @@
+@import "https://fonts.googleapis.com/css?family=Pridi";
+* {
+  font-family: "Pridi"; }
 
+section.bg {
+  background: #EAF4FF; }
 
 /*# sourceMappingURL=login.css.map */

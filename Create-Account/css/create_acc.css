@@ -1,0 +1,16 @@
+@import "https://fonts.googleapis.com/css?family=Pridi";
+* {
+  font-family: "Pridi"; }
+
+section.bg {
+  background: #EAF4FF; }
+
+.button.Sdy {
+  background: #303B47;
+  color: white; }
+
+.input.Sdy {
+  font-size: 14px;
+  border: 1px solid; }
+
+/*# sourceMappingURL=create_acc.css.map */

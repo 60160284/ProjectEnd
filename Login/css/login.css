@@ -20,4 +20,7 @@ section.bg {
   font-size: 14px;
   border: 1px solid; }
 
+label.naccount {
+  float: right; }
+
 /*# sourceMappingURL=login.css.map */

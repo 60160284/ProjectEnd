@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import "https://fonts.googleapis.com/css?family=Pridi";
 * {
   font-family: "Pridi"; }
@@ -9,39 +8,10 @@ section.bg {
 .subtitle.Sdy {
   color: white; }
 
-fieldset {
-  border-color: #e9eaec;
-  border-style: solid;
-  line-height: 22.5px;
-  padding: 30px 20px 30px 20px;
-  width: 400px; }
+.input.Sdy {
+  font-family: "Pridi"; }
 
-.incust {
-  display: "flex";
-  flex-direction: column;
-  border: none;
-  width: fit-content;
-  padding: 10px; }
-  ิิ .incust.-cname {
-    margin: 3px; }
-  .incust.-city {
-    margin: 3px; }
-  .incust.-email {
-    margin: 3px; }
-  .incust.-address {
-    margin: 3px; }
-  .incust.-country {
-    margin: 3px; }
-  .incust.-tax {
-    margin: 3px; }
-
-.incusts {
-  display: "flex";
-  flex-direction: column;
-  border: none;
-  width: 300px;
-  font-size: 14px; }
-  .incusts.-credit {
-    padding: 10px; }
+.hero.Sdy {
+  padding-top: 10px; }
 
 /*# sourceMappingURL=payment.css.map */

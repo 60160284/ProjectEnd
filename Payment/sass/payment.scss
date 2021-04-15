@@ -18,3 +18,52 @@ section{
         color: white;
     }
 }
+
+fieldset {
+  
+    border-color: #e9eaec;
+    border-style: solid;
+  
+  
+    line-height: 22.5px;
+  
+    padding: 30px 20px 30px 20px;
+    width: 400px;
+  }
+  .incust {
+    display: "flex";
+    flex-direction: column;
+    border: none;
+    width: fit-content;
+    padding: 10px;
+    ิิ &.-cname {
+      margin: 3px;
+    }
+    &.-city {
+      margin: 3px;
+    }
+    &.-email {
+      margin: 3px;
+    }
+    &.-address {
+      margin: 3px;
+    }
+    &.-country {
+      margin: 3px;
+    }
+    &.-tax {
+      margin: 3px;
+    }
+  }
+  
+  .incusts {
+    display: "flex";
+    flex-direction: column;
+    border: none;
+    width: 300px;
+    font-size: 14px;
+    &.-credit {
+      
+      padding: 10px;
+    }
+  }

@@ -5,6 +5,9 @@
 section.bg {
   background: #EAF4FF; }
 
+.form.Sdy {
+  display: inline; }
+
 .button.Sdy {
   background: #303B47;
   color: white; }

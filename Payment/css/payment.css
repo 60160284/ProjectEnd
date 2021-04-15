@@ -1,0 +1,11 @@
+@import "https://fonts.googleapis.com/css?family=Pridi";
+* {
+  font-family: "Pridi"; }
+
+section.bg {
+  background: #EAF4FF; }
+
+.subtitle.Sdy {
+  color: white; }
+
+/*# sourceMappingURL=payment.css.map */

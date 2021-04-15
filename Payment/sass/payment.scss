@@ -1,0 +1,20 @@
+$bg-default : #EAF4FF;
+$bt-submit: #303B47;
+$bg-nav-default: #303b47;
+@import "https://fonts.googleapis.com/css?family=Pridi";
+
+*{
+    font-family: "Pridi";
+}
+section{
+    &.bg{
+        background:#EAF4FF ;
+        
+    }
+    
+}
+.subtitle{
+    &.Sdy{
+        color: white;
+    }
+}

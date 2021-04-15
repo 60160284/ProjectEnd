@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGQ,uDAA+C;AAEvD,CAAC;EACG,WAAW,EAAE,OAAO;;AAGpB,UAAI;EACA,UAAU,EAAC,OAAO;;AAMtB,aAAK;EACD,KAAK,EAAE,KAAK",
+"sources": ["../sass/payment.scss"],
+"names": [],
+"file": "payment.css"
+}

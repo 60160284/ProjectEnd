@@ -23,12 +23,11 @@ section{
 
 .container{
     &.Sdy{
-        padding: 25px 50px 75px 50px;
+       
         margin: 25px 50px 75px 50px;
-        
         border-radius: 5px;
         line-height: 24px;
-        box-shadow: 3px 1px 8px rgba(255, 255, 255, 0.5), 3px 2px 8px rgba(0, 0, 0, 0.1); 
+       
     }
 }
 .box {
@@ -41,10 +40,16 @@ section{
     &.Sdy{
         font-size: 14px;
         border: 1px solid;
+        width: 500px;
     }
 }
 label{
     &.naccount{
         float: right;
+    }
+}
+.columns{
+    &.Sdy{
+        margin: 100px;
     }
 }

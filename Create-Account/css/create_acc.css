@@ -5,9 +5,6 @@
 section.bg {
   background: #EAF4FF; }
 
-.form.Sdy {
-  display: inline; }
-
 .button.Sdy {
   background: #303B47;
   color: white; }
@@ -15,5 +12,11 @@ section.bg {
 .input.Sdy {
   font-size: 14px;
   border: 1px solid; }
+
+.container.Sdy {
+  margin: 25px 50px 75px 50px; }
+
+.columns.Sdy {
+  margin: 50px; }
 
 /*# sourceMappingURL=create_acc.css.map */

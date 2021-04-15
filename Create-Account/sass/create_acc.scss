@@ -15,7 +15,7 @@ section{
 }
 .form{
     &.Sdy{
-        display: inline;
+        
     }
 }
 .button{
@@ -28,5 +28,17 @@ section{
     &.Sdy{
         font-size: 14px;
         border: 1px solid;
+    }
+}
+.container{
+    &.Sdy{
+        margin: 25px 50px 75px 50px;
+    
+       
+    }
+}
+.columns{
+    &.Sdy{
+        margin: 50px;
     }
 }

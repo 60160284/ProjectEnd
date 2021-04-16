@@ -14,11 +14,10 @@
 
 <body>
 
-
     <nav class="navbar" role="navigation" aria-label="main navigation" style="background: #303b47;">
         <div class="navbar-brand">
             <a class="navbar-item" href="https://bulma.io">
-                <p class="subtitle Sdy">
+                <p class="subtitle p-Sdy">
                     ชื่อโปรเจ็ค
                 </p>
             </a>
@@ -30,51 +29,64 @@
 
         <div class="navbar-end">
             <div class="navbar-item">
-                <div class="buttons">
+                <div class="navbar-item dropdown-trigger is-hoverable ">
+                    <img src="/ProjectEnd/img/student.png" class=""
+                        style="background-color: blanchedalmond; border-radius: 50%;">
 
-                    <a class="button is-light">
-                        <strong>ลงชื่อเข้าใช้</strong>
-                    </a>
+                    <div class="navbar-dropdown is-right">
+                        <a class="navbar-item" href="">
+                            บัญชีของฉัน
+                        </a>
+
+                        <hr class="navbar-divider" href="">
+                        <a class="navbar-item">
+                            ออกจากระบบ
+                        </a>
+                    </div>
                 </div>
             </div>
+        </div>
         </div>
 
     </nav>
     <section class="hero is-fullheight bg">
         <div class="columns">
-            <div class="column" style=" padding: 25px;">
-                <p class="title Sdy" style="width: 45%; ">โปรดกรอกข้อมูลเพื่อชำระสินค้า</p>
+            <div class="column p-Sdy">
+                <p class="title p-Sdy">โปรดกรอกข้อมูลเพื่อชำระสินค้า</p>
                 <div class="columns is-desktop">
-                    <div class="column is-one-quarter" style="width: 45%; padding-top: 20px;">
+                    <div class="column is-one-quarter p-Sdy">
                         <p><strong>ข้อมูลพื้นฐานเกี่ยวกับการปกป้องข้อมูล:</strong> รวบรวมข้อมูลของคุณสำหรับการจัดการ
                             และดำเนินการสมัครสมาชิกของคุณ ข้อมูลนี้จะไม่มอบให้กับบุคคลที่สามจากบริษัท
                             เฉพาะในกรณีที่มีข้อกำหนดทางกฎหมายเท่านั้น</p>
                     </div>
-                    <div class="columns is-desktop" style="padding-left: 200px;">
-                        <div class="box ">
+                    <div class="columns is-desktop hero  " style="padding-left: 200px;">
+                        <label class="label">สิ่งที่คุณกำลังซื้อ :</label>
+                        <div class="box">
+
                             <div class=" column is-inline-flex">
-                                <label class="label">ชื่อสินค้า</label>
+                                <label class="">ชื่อสินค้า</label>
+
+                                <label class="" style="width: max-content; padding: 0px 0px 0px 100px ;">X
+                                    1</label>
                             </div>
+                            <hr class="navbar-divider">
 
                             <div class="column is-inline-flex">
-                                <label class="label">X 1</label>
-                            </div>
 
-                            <div class="column ">
-                                <div class="column  ">
-                                    <label class="label">แสดงยอดทั้งหมด</label>
+                                <label class=" total"
+                                    style="width: max-content; padding: 0px 55px 0px 0px;">แสดงยอดทั้งหมด</label>
 
-                                    <label class="label">จำนวนยอด</label>
-                                </div>
+                                <label class=" total"> 390 </label>
+                                <p>บาท</p>
                             </div>
                         </div>
 
                     </div>
                 </div>
 
-                <div class="hero">
-                    <label for="">ข้อมูลการเรียกเก็บเงิน</label>
-                    <div class="column Sdy" style="width: 30%;">
+                <div class="field info p-Sdy">
+                    <label class="label">ข้อมูลการเรียกเก็บเงิน</label>
+                    <div class="column info p-Sdy">
                         <div class="field">
                             <input class="input is-link Sdy" type="text" placeholder="ขื่อผู้ใช้งาน">
                         </div>
@@ -98,18 +110,24 @@
 
                     </div>
                     <div class="hero Sdy">
-                        <label for="">ข้อมูลการชำระเงิน</label>
-                        <div class="column" style="width: 30%;">
+                        <label class="label">ข้อมูลการชำระเงิน</label>
+                        <div class="column info p-Sdy">
                             <div class="field">
                                 <input class="input is-link Sdy" type="text" placeholder="หมายเลขบัตรเครดิต">
                             </div>
                         </div>
                     </div>
+                   
+                        <button class="button p-Sdy">ยอมรับ</button>
+                    
                 </div>
+
             </div>
         </div>
+
     </section>
-    <!--เดี๋ยวมาดูอีกที-->
+
+
 </body>
 
 </html>

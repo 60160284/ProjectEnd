@@ -3,15 +3,31 @@
   font-family: "Pridi"; }
 
 section.bg {
-  background: #EAF4FF; }
+  background: #eaf4ff; }
 
-.subtitle.Sdy {
-  color: white; }
+.subtitle.p-Sdy {
+  color: #fff; }
 
 .input.Sdy {
   font-family: "Pridi"; }
 
 .hero.Sdy {
   padding-top: 10px; }
+
+.column.p-Sdy {
+  padding: 25px; }
+.column .is-one-quarter.p-Sdy {
+  width: 40%;
+  padding-top: 20px; }
+.column .short.p-Sdy {
+  width: 30%; }
+.column.info.p-Sdy {
+  width: 30%; }
+
+.button.p-Sdy {
+  font-family: "Pridi";
+  width: 395px;
+  background: #303b47;
+  color: white; }
 
 /*# sourceMappingURL=payment.css.map */

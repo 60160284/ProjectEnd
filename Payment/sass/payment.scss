@@ -1,31 +1,77 @@
-$bg-default : #EAF4FF;
-$bt-submit: #303B47;
+$bg-default: #eaf4ff;
+$bt-submit: #303b47;
 $bg-nav-default: #303b47;
+$pj-color: #fff;
 @import "https://fonts.googleapis.com/css?family=Pridi";
 
-*{
-    font-family: "Pridi";
+* {
+  font-family: "Pridi";
 }
-section{
-    &.bg{
-        background:#EAF4FF ;
-        
-    }
-    
+section {
+  &.bg {
+    background: $bg-default;
+  }
 }
-.subtitle{
-    &.Sdy{
-        color: white;
-    }
+.subtitle {
+  &.p-Sdy {
+    color: $pj-color;
+  }
 }
 
-.input{
-    &.Sdy{
-        font-family: "Pridi";
-    }
+.input {
+  &.Sdy {
+    font-family: "Pridi";
+  }
 }
-.hero{
-    &.Sdy{
-        padding-top: 10px;
-    }
+.hero {
+  &.Sdy {
+    padding-top: 10px;
+  }
 }
+.title {
+  &.p-Sdy {
+  }
+}
+
+.column {
+  &.p-Sdy {
+    padding: 25px;
+  }
+  .is-one-quarter {
+    &.p-Sdy {
+      width: 40%;
+      padding-top: 20px;
+    }
+  }
+  .short {
+    &.p-Sdy {
+      width: 30%;
+    }
+  }
+
+  &.info{
+    &.p-Sdy {
+        width: 30%;
+      }
+  }
+}
+
+.button {
+  &.p-Sdy {
+    font-family: "Pridi";
+    width: 395px;
+    background: $bt-submit;
+    color: white;
+   
+  }
+}
+
+.field{
+  &.info {
+    &.p-Sdy {
+        
+  
+    }
+  }
+}
+

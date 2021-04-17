@@ -44,8 +44,6 @@ body {
 
 .header {
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   height: var(--header-height);
   background: #333333;
@@ -91,9 +89,6 @@ body {
 .nav--open .nav__links {
   transform: translateX(0);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); }
-
-.nav__link--active {
-  color: #009578; }
 
 .nav__link--active,
 .nav__link:hover {

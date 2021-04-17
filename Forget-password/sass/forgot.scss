@@ -1,0 +1,69 @@
+$bg-default : #EAF4FF;
+$bt-submit: #303B47;
+@import "https://fonts.googleapis.com/css?family=Pridi";
+
+*{
+    font-family: "Pridi";
+}
+section{
+    &.bg{
+        background:#EAF4FF ;
+        
+    }
+    
+
+}
+.button{
+    &.forgot-Sdy{
+        background: $bt-submit;
+        color: white;
+        width: 100%;
+    }
+}
+
+
+.container{
+    &.Sdy{
+       
+        margin: 25px 50px 75px 50px;
+        border-radius: 5px;
+        line-height: 24px;
+       
+    }
+}
+.box {
+    &.Sdy{
+       
+        
+    }
+}
+.input{
+    &.Sdy{
+        font-size: 14px;
+        border: 1px solid;
+        width: 500px;
+    }
+}
+label{
+    &.naccount{
+        float: right;
+    }
+}
+.columns{
+    &.Sdy{
+        margin: 100px;
+    }
+}
+.subtitle{
+    &.Sdy{
+        color: white;
+    }
+}
+.field{
+    &.text-forget-password{
+        
+    }
+    &.back-to-login{
+        text-align: center;
+    }
+}

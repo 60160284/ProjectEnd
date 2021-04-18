@@ -24,6 +24,8 @@ label.naccount {
 
 .columns.Sdy {
   margin: 100px; }
+.columns.home-sdy {
+  padding: 2rem; }
 
 .subtitle.Sdy {
   color: #ffffff; }
@@ -49,6 +51,9 @@ body {
   height: var(--header-height);
   display: flex;
   align-items: center; }
+
+.pagination-link.color {
+  background: #ffffff; }
 
 .header__button {
   width: var(--header-height);
@@ -140,5 +145,8 @@ body {
   color: #ffffff;
   border-radius: 0 5px 5px 0;
   cursor: pointer; }
+
+.card-content.home-sdy {
+  background: #f0f0f0; }
 
 /*# sourceMappingURL=home.css.map */

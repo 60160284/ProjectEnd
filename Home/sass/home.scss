@@ -63,6 +63,9 @@ label{
     &.Sdy{
         margin: 100px;
     }
+    &.home-sdy{
+      padding: 2rem;
+    }
 }
 .subtitle{
     &.Sdy{
@@ -99,6 +102,12 @@ label{
     display: flex;
     align-items: center;
     
+  }
+
+  .pagination-link{
+    &.color{
+      background: $white;
+    }
   }
   .header__button {
     width: var(--header-height);
@@ -204,4 +213,10 @@ label{
   color: $white;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
+}
+
+.card-content{
+  &.home-sdy{
+    background: #f0f0f0;
+  }
 }

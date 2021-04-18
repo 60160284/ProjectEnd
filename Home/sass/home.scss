@@ -26,9 +26,13 @@ section{
 
 }
 .button{
+  
     &.Sdy{
         background: $bt-submit;
         color: $white;
+    }
+    &.home-filter{
+      display: inline;
     }
 }
 
@@ -65,6 +69,9 @@ label{
     }
     &.home-sdy{
       padding: 2rem;
+    }
+    &.home-filter{
+      display: none;
     }
 }
 .subtitle{
@@ -220,3 +227,4 @@ label{
     background: #f0f0f0;
   }
 }
+

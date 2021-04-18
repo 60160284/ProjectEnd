@@ -13,6 +13,7 @@
 </head>
 
 <body class="preload">
+
     <nav class="nav">
         <div class="nav__links">
             <label class="nav__title"> ชื่อโปรเจ็ค</label>
@@ -103,7 +104,7 @@
 
     <div class="navbar-end">
         <div class="navbar-item">
-            <div class="navbar-item dropdown-trigger is-hoverable ">
+            <div class="navbar-item has-dropdown is-hoverable">
                 <img src="../img/student.png" class="Sdy-img">
 
                 <div class="navbar-dropdown is-right">
@@ -112,6 +113,7 @@
                     </a>
 
                     <hr class="navbar-divider" href="">
+
                     <a class="navbar-item">
                         ออกจากระบบ
                     </a>
@@ -120,7 +122,146 @@
         </div>
     </div>
     </nav>
+
+
+    <button class="button home-filter" onclick="filter()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=""
+            viewBox="0 -5 16 16">
+            <path
+                d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+        </svg>
+        <span>ตัวกรอง</span>
+    </button>
+
+    <div id="myDIV" style="display: none;">
+        <div class="columns section">
+            <div class="column">
+                <span>การเปิดเผย</span>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>CC0</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>CC-BY</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>CC-BY-SA</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>CC-BY-ND</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>CC-BY-NC-SA</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>CC-BY-NC-ND</label>
+                </div>
+            </div>
+
+
+            <div class="column">
+                <span>หมวดหมู่</span>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>กีฬาและฟิตเนส</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>สถาปัตยกรรม</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>การท่องเที่ยว</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>สัตว์</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value=""" />
+                        <label>ผู้คนและตัวละคร</label>
+                    </div>
+                    <div class=" column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>วิทยาศาสตร์</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>ธรรมชาติ</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>ศิลปะ</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>เครื่องมือและเทคโนโลยี</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>ความปลอดภัย</label>
+                </div>
+            </div>
+
+
+
+            <div class="column">
+                <span>วันที่เผยแพร่</span>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>วันนี้</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>สัปดาห์นี้</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>เดือนนี้</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>ปีนี้</label>
+                </div>
+
+            </div>
+
+
+            <div class="column">
+                <span>ประเภทของโมเดล</span>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>สองมิติ</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="" data-filter-value="" />
+                    <label>สามมิติ</label>
+                </div>
+            </div>
+
+            <div class="column">
+                <span>จัดเรียง</span>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="order_by" data-filter-value="popularity">
+                    <label>สองมิติ</label>
+                </div>
+                <div class="column checkbox">
+                    <input type="checkbox" name="" data-filter="order_by" data-filter-value="date">
+                    ตามวันที่เผยแพร่
+                </div>
+            </div>
+        </div>
     </div>
+
+   
+
+
+
 
     <section class="section bg">
         <div class="container">
@@ -128,20 +269,22 @@
                 <div class="column">
                     <div class="card">
                         <div class="card-image">
-                            <a href=""><figure class="image is-3by2">
-                                <img src="./../img/three/building-1.png" alt="Placeholder image">
-                            </figure></a>
+                            <a href="">
+                                <figure class="image is-3by2">
+                                    <img src="./../img/three/building-1.png" alt="Placeholder image">
+                                </figure>
+                            </a>
                         </div>
                         <div class="card-content home-sdy">
                             <div class="media">
                                 <div class="media-content">
                                     <p class="title is-6">building-1</p>
-                                   
+
                                 </div>
                             </div>
 
                             <div class="content">
-                               
+
                             </div>
                         </div>
                     </div>
@@ -157,67 +300,71 @@
                             <div class="media">
                                 <div class="media-content">
                                     <p class="title is-6">Flower A</p>
-                          
+
                                 </div>
                             </div>
 
                             <div class="content">
-                               
+
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="column">
                     <div class="card">
-                        <a href=""><div class="card-image">
+                        <a href="">
+                            <div class="card-image">
+                                <figure class="image is-3by2">
+                                    <img src="./../img/three/car.png" alt="Placeholder image">
+                                </figure>
+                        </a>
+                    </div>
+                    <div class="card-content home-sdy">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-6">Car</p>
+
+                            </div>
+                        </div>
+
+                        <div class="content">
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="card-image">
+                        <a href="">
                             <figure class="image is-3by2">
-                                <img src="./../img/three/car.png" alt="Placeholder image">
-                            </figure></a>
-                        </div>
-                        <div class="card-content home-sdy">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-6">Car</p>
-                                 
-                                </div>
-                            </div>
+                                <img src="./../img/three/house01.png" alt="Placeholder image">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="card-content home-sdy">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-6">House of M</p>
 
-                            <div class="content">
-                                
                             </div>
+                        </div>
+
+                        <div class="content">
+
                         </div>
                     </div>
-
-                    
-                </div>
-                <div class="column">
-                    <div class="card">
-                        <div class="card-image">
-                            <a href=""> <figure class="image is-3by2">
-                                <img src="./../img/three/house01.png" alt="Placeholder image">
-                            </figure></a>
-                        </div>
-                        <div class="card-content home-sdy">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-6">House of M</p>
-                               
-                                </div>
-                            </div>
-
-                            <div class="content">
-                              
-                            </div>
-                        </div>
-                    </div> 
                 </div>
             </div>
-    
+        </div>
+
 
         <div class="columns home-sdy">
             <div class="column">
                 <div class="card">
-                    
+
                     <div class="card-image">
                         <figure class="image is-3by2">
                             <img src="./../img/three/cat.png" alt="Placeholder image">
@@ -227,12 +374,12 @@
                         <div class="media">
                             <div class="media-content">
                                 <p class="title is-6">แมวสีส้ม </p>
-                            
+
                             </div>
                         </div>
 
                         <div class="content">
-                           
+
                         </div>
                     </div>
                 </div>
@@ -248,12 +395,12 @@
                         <div class="media">
                             <div class="media-content">
                                 <p class="title is-6">ห้องนั่งเล่น </p>
-                            
+
                             </div>
                         </div>
 
                         <div class="content">
-                           
+
                         </div>
                     </div>
                 </div>
@@ -269,17 +416,17 @@
                         <div class="media">
                             <div class="media-content">
                                 <p class="title is-6">เจ้าเป็ดน้อย </p>
-                            
+
                             </div>
                         </div>
 
                         <div class="content">
-                            
+
                         </div>
                     </div>
                 </div>
 
-                
+
             </div>
             <div class="column">
                 <div class="card">
@@ -292,37 +439,37 @@
                         <div class="media">
                             <div class="media-content">
                                 <p class="title is-6">ผลไม้รสหวาน </p>
-                            
+
                             </div>
                         </div>
 
                         <div class="content">
-                          
+
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
         </div>
-    </div>
+   
 
-        
-    </div>
-        </div>
- 
-    <nav class="pagination is-small is-centered" role="navigation" aria-label="pagination">
-        <a class="pagination-previous is-hidden">ย้อนกลับ</a>
-  
-        <ul class="pagination-list">
-  <li><a class="pagination-link is-current" aria-label="Page 1" aria-current="page">1</a></li>
-          <li><a class="pagination-link color" aria-label="Goto page 2" href="index-home-2.html">2</a></li>
-         
-          <li><a class="pagination-link color" aria-label="Goto page 3">3</a></li>
 
-          <li><a class="pagination-link color" aria-label="Goto page 4">4</a></li>
+       
+    
 
-          <li><a class="pagination-link color">หน้าถัดไป</a></li>
-        </ul>
-      </nav>
+        <nav class="pagination is-small is-centered" role="navigation" aria-label="pagination">
+            <a class="pagination-previous is-hidden">ย้อนกลับ</a>
+
+            <ul class="pagination-list">
+                <li><a class="pagination-link is-current" aria-label="Page 1" aria-current="page">1</a></li>
+                <li><a class="pagination-link color" aria-label="Goto page 2" href="index-home-2.html">2</a></li>
+
+                <li><a class="pagination-link color" aria-label="Goto page 3">3</a></li>
+
+                <li><a class="pagination-link color" aria-label="Goto page 4">4</a></li>
+
+                <li><a class="pagination-link color">หน้าถัดไป</a></li>
+            </ul>
+        </nav>
     </section>
     <script>
         window.addEventListener("load", () => {
@@ -340,6 +487,18 @@
                 nav.classList.remove("nav--open");
             });
         });
+    </script>
+    <script>
+        function filter() {
+            var x = document.getElementById("myDIV");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+
     </script>
 </body>
 

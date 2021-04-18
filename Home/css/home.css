@@ -8,6 +8,8 @@ section.bg {
 .button.Sdy {
   background: #303B47;
   color: #ffffff; }
+.button.home-filter {
+  display: inline; }
 
 .container.Sdy {
   margin: 25px 50px 75px 50px;
@@ -26,6 +28,8 @@ label.naccount {
   margin: 100px; }
 .columns.home-sdy {
   padding: 2rem; }
+.columns.home-filter {
+  display: none; }
 
 .subtitle.Sdy {
   color: #ffffff; }

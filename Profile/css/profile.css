@@ -39,7 +39,7 @@ body {
   transition: none !important; }
 
 .header {
-  position: fixed;
+  position: sticky;
   background: #303B47;
   width: 100%;
   height: var(--header-height);

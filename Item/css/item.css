@@ -8,6 +8,8 @@ section.bg {
 .button.Sdy {
   background: #303B47;
   color: #ffffff; }
+.button.home-filter {
+  display: inline; }
 
 .container.Sdy {
   margin: 25px 50px 75px 50px;
@@ -24,6 +26,10 @@ label.naccount {
 
 .columns.Sdy {
   margin: 100px; }
+.columns.home-sdy {
+  padding: 2rem; }
+.columns.home-filter {
+  display: none; }
 
 .subtitle.Sdy {
   color: #ffffff; }
@@ -43,12 +49,15 @@ body {
   transition: none !important; }
 
 .header {
-  position: fixed;
+  position: sticky;
   background: #303B47;
   width: 100%;
   height: var(--header-height);
   display: flex;
   align-items: center; }
+
+.pagination-link.color {
+  background: #ffffff; }
 
 .header__button {
   width: var(--header-height);
@@ -140,5 +149,14 @@ body {
   color: #ffffff;
   border-radius: 0 5px 5px 0;
   cursor: pointer; }
+
+.card-content.home-sdy {
+  background: #f0f0f0; }
+
+i.name {
+  color: #df8c10; }
+i.item-down {
+  display: inline;
+  padding: 3px; }
 
 /*# sourceMappingURL=item.css.map */

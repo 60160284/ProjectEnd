@@ -26,11 +26,18 @@ section{
 
 }
 .button{
+  
     &.Sdy{
         background: $bt-submit;
         color: $white;
     }
-}
+    &.home-filter{
+      display: inline;
+    }
+    
+
+  }
+
 
 .container{
     &.Sdy{
@@ -63,6 +70,12 @@ label{
     &.Sdy{
         margin: 100px;
     }
+    &.home-sdy{
+      padding: 2rem;
+    }
+    &.home-filter{
+      display: none;
+    }
 }
 .subtitle{
     &.Sdy{
@@ -91,7 +104,7 @@ label{
     transition: none !important;
   }
   .header {
-    position: fixed;
+    position: sticky;
     background: $color-1;
     width: 100%;
     height: var(--header-height);
@@ -99,6 +112,12 @@ label{
     display: flex;
     align-items: center;
     
+  }
+
+  .pagination-link{
+    &.color{
+      background: $white;
+    }
   }
   .header__button {
     width: var(--header-height);
@@ -204,4 +223,20 @@ label{
   color: $white;
   border-radius: 0 5px 5px 0;
   cursor: pointer;
+}
+
+.card-content{
+  &.home-sdy{
+    background: #f0f0f0;
+  }
+}
+
+i{
+  &.name{
+    color: rgb(223, 140, 16);
+  }
+  &.item-down{
+    display: inline;
+    padding: 3px;
+  }
 }

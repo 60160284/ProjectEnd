@@ -24,14 +24,13 @@ section.bg {
   font-size: 14px;
   background: #767e87;
   border: none;
-  color: #ffffff;
-  letter-spacing: 1px; }
+  color: #ffffff; }
 .input.tarea-up-sdy {
   font-size: 14px;
   background: #767e87;
   border: none;
   color: #ffffff;
-  letter-spacing: 1px; }
+  height: 100px; }
 
 label.naccount {
   float: right; }
@@ -42,6 +41,8 @@ label.naccount {
   padding: 2rem; }
 .columns.home-filter {
   display: none; }
+.columns.up-sdy {
+  height: calc(100vh - ( 3.25rem - .75rem ) ); }
 
 .subtitle.Sdy {
   color: #ffffff; }
@@ -176,9 +177,10 @@ i.name {
   height: 100%;
   background: #303B47; }
 
-.subtitle.up-sdy {
+.sub.up-sdy {
   font-size: 16px;
-  color: #ffffff; }
+  color: #ffffff;
+  padding-bottom: 0.5rem; }
 
 .title.up-sdy {
   color: #ffffff; }

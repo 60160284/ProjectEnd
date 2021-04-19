@@ -1,5 +1,15 @@
 $bg-default : #EAF4FF;
 $bt-submit: #303B47;
+
+
+$nav-link-hover:#eeeeee;
+$nav-link-active: #009578;
+
+
+$black:#000;
+$white: #ffffff;
+$color-1:#303B47;
+
 @import "https://fonts.googleapis.com/css?family=Pridi";
 
 *{
@@ -20,7 +30,16 @@ section{
     }
 }
 
+.header {
+    position: sticky;
+    background: $color-1;
+    width: 100%;
+    height: var(--header-height);
 
+    display: flex;
+    align-items: center;
+    
+  }
 .container{
     &.Sdy{
        

@@ -56,18 +56,24 @@ section{
         font-size: 14px;
         border: 1px solid;
         width: 500px;
+    
     }
 
     &.up-sdy{
         font-size: 14px;
         background: $bg-space;
       border: none;
+    color: $white;
+    letter-spacing: 1px;
+
     }
 
     &.tarea-up-sdy{
         font-size: 14px;
         background: $bg-space;
         border: none;
+        color: $white;
+        letter-spacing: 1px;
     }
 
 }
@@ -276,6 +282,3 @@ position: sticky;
     }
 }
 
-.select{
-   
-}

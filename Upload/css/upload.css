@@ -23,11 +23,15 @@ section.bg {
 .input.up-sdy {
   font-size: 14px;
   background: #767e87;
-  border: none; }
+  border: none;
+  color: #ffffff;
+  letter-spacing: 1px; }
 .input.tarea-up-sdy {
   font-size: 14px;
   background: #767e87;
-  border: none; }
+  border: none;
+  color: #ffffff;
+  letter-spacing: 1px; }
 
 label.naccount {
   float: right; }

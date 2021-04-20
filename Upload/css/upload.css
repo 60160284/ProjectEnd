@@ -25,12 +25,13 @@ section.bg {
   background: #767e87;
   border: none;
   color: #ffffff; }
-.input.tarea-up-sdy {
+
+textarea.tarea-up-sdy {
   font-size: 14px;
   background: #767e87;
   border: none;
   color: #ffffff;
-  height: 100px; }
+  border-radius: 5px; }
 
 label.naccount {
   float: right; }

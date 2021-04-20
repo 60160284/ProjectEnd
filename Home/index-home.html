@@ -14,7 +14,7 @@
 
 <body class="preload">
 
-    
+
 
 
     <div class="hero-head">
@@ -75,15 +75,29 @@
     </div>
     </nav>
 
+    <div class="column has-text-centered">
+        <button class="button home-filter" onclick="filter()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=""
+                viewBox="0 -5 16 16">
+                <path
+                    d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+            </svg>
+            <span>ตัวกรอง</span>
+        </button>
 
-    <button class="button home-filter" onclick="filter()">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=""
-            viewBox="0 -5 16 16">
-            <path
-                d="M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
-        </svg>
-        <span>ตัวกรอง</span>
-    </button>
+        <div class="select" >
+            <select>
+                <option value="" selected>ตามยอดนิยม</option>
+                <option value="">ตามวันที่เผยแพร่</option>
+            </select>
+        </div>
+    </div>
+
+  
+
+
+
+
 
     <div id="myDIV" style="display: none;">
         <div class="columns section">
@@ -196,17 +210,7 @@
                 </div>
             </div>
 
-            <div class="column">
-                <span>จัดเรียง</span>
-                <div class="column checkbox">
-                    <input type="checkbox" name="" data-filter="order_by" data-filter-value="popularity"checked>
-                    <label>ตามยอดนิยม</label>
-                </div>
-                <div class="column checkbox">
-                    <input type="checkbox" name="" data-filter="order_by" data-filter-value="date">
-                    <label>ตามวันที่เผยแพร่</label>
-                </div>
-            </div>
+
         </div>
     </div>
 
@@ -230,7 +234,9 @@
                         <div class="card-content home-sdy">
                             <div class="media">
                                 <div class="media-content">
-                                    <a href=""><p class="title is-6">building-1</p></a>
+                                    <a href="">
+                                        <p class="title is-6">building-1</p>
+                                    </a>
 
                                 </div>
                             </div>
@@ -251,7 +257,9 @@
                         <div class="card-content home-sdy">
                             <div class="media">
                                 <div class="media-content">
-                                   <a href=""> <p class="title is-6">Flower A</p></a>
+                                    <a href="">
+                                        <p class="title is-6">Flower A</p>
+                                    </a>
 
                                 </div>
                             </div>
@@ -274,7 +282,9 @@
                     <div class="card-content home-sdy">
                         <div class="media">
                             <div class="media-content">
-                                <a href=""><p class="title is-6">Car</p></a>
+                                <a href="">
+                                    <p class="title is-6">Car</p>
+                                </a>
 
                             </div>
                         </div>
@@ -300,7 +310,8 @@
                         <div class="media">
                             <div class="media-content">
                                 <a href="../Item/index-item-p.html">
-                                    <p class="title is-6">House of M <i class="fa fa-usd name" aria-hidden="true"></i></p>
+                                    <p class="title is-6">House of M <i class="fa fa-usd name" aria-hidden="true"></i>
+                                    </p>
                                 </a>
                             </div>
                         </div>
@@ -420,55 +431,55 @@
         </div>
 
 
-<nav class="nav">
-        <div class="nav__links">
-            <label class="nav__title"> ชื่อโปรเจ็ค</label>
-            <a class="nav__link nav__link--active" href="#">
+        <nav class="nav">
+            <div class="nav__links">
+                <label class="nav__title"> ชื่อโปรเจ็ค</label>
+                <a class="nav__link nav__link--active" href="#">
 
-                หน้าหลัก
-            </a>
-            <label class="nav__title">หมวดหมู่</label>
-            <a class="nav__link" href="#">
+                    หน้าหลัก
+                </a>
+                <label class="nav__title">หมวดหมู่</label>
+                <a class="nav__link" href="#">
 
-                กีฬาและฟิตเนส
-            </a>
-            <a class="nav__link" href="#">
+                    กีฬาและฟิตเนส
+                </a>
+                <a class="nav__link" href="#">
 
-                สถาปัตยกรรม
-            </a>
-            <a class="nav__link" href="#">
+                    สถาปัตยกรรม
+                </a>
+                <a class="nav__link" href="#">
 
-                สัตว์
-            </a>
-            <a class="nav__link" href="#">
+                    สัตว์
+                </a>
+                <a class="nav__link" href="#">
 
-                การท่องเที่ยว
-            </a>
-            <a class="nav__link" href="#">
+                    การท่องเที่ยว
+                </a>
+                <a class="nav__link" href="#">
 
-                ผู้คนและตัวละคร
-            </a>
-            <a class="nav__link" href="#">
+                    ผู้คนและตัวละคร
+                </a>
+                <a class="nav__link" href="#">
 
-                วิทยาศาสตร์
-            </a>
-            <a class="nav__link" href="#">
+                    วิทยาศาสตร์
+                </a>
+                <a class="nav__link" href="#">
 
-                ธรรมชาติ
-            </a>
-            <a class="nav__link" href="#">
+                    ธรรมชาติ
+                </a>
+                <a class="nav__link" href="#">
 
-                ศิลปะ
-            </a>
-            <a class="nav__link" href="#">
+                    ศิลปะ
+                </a>
+                <a class="nav__link" href="#">
 
-                เครื่องมือและเทคโนโลยีสารสนเทศ
-            </a>
+                    เครื่องมือและเทคโนโลยีสารสนเทศ
+                </a>
 
 
-        </div>
-        <div class="nav__overlay"></div>
-    </nav>
+            </div>
+            <div class="nav__overlay"></div>
+        </nav>
 
 
 

@@ -37,29 +37,22 @@ section {
   &.p-Sdy {
     padding: 25px;
   }
+
   .is-one-quarter {
     &.p-Sdy {
       width: 40%;
       padding-top: 20px;
     }
   }
-  .short {
-    &.p-Sdy {
-      width: 30%;
-    }
-  }
+ 
 
-  &.info{
-    &.p-Sdy {
-        width: 30%;
-      }
-  }
+
 }
 
 .button {
   &.p-Sdy {
     font-family: "Pridi";
-    width: 395px;
+  width: 100%;
     background: $bt-submit;
     color: white;
    
@@ -75,3 +68,19 @@ section {
   }
 }
 
+.label{
+  &.cname{
+
+  }
+  &.amount{
+    width: max-content; 
+    padding: 0px 0px 0px 100px ;
+  }
+  &.total{
+    width: max-content; 
+    padding: 0px 40px 0px 0px;
+  }
+}
+form{
+  width: 30%;
+}
